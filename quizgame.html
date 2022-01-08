@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maths Quiz Game</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="scoreboard" style="background-color: rgb(251, 139, 124); width: 200px; height: 200px; padding-top: 30px; margin-left: 20px; border-radius: 40px; padding-left: 30px;">
+<h3 id="player1_name" style="font-family: 'Nunito', sans-serif; color: white;"></h3> <span id="player1_score" style="font-size: 20px; color: rgb(226, 255, 61);"></span>
+<br>
+<h3 id="player2_name" style="font-family: 'Nunito', sans-serif; color: white;"></h3> <span id="player2_score"style="font-size: 20px;color: rgb(226, 255, 61);"></span>
+</div>
+<div class="container">
+	<center>
+		<h2 style="color: Red; background-color: white; width: 300px; border-radius: 20px; font-weight: bold; font-family:cursive;">Maths Quiz Game</h2>
+        <h3 id="player_number1"></h3>
+		<h3 id="player_number2"></h3>
+		<div id="output" class="col-lg-6"></div>
+fa
+		<br>	
+		<h4>Number 1</h4>
+		<input type="text" id="number1" class="form-control" placeholder="Number">
+		<br>
+		<h4>Number 2</h4>
+		<input type="text" id="number2" class="form-control" placeholder="Number">
+		<br>
+		<button onclick="send();" class="btn btn-success" style="width: 30%;">Send</button>
+	</center>
+</div>
+
+<script src="quiz_game_page.js"></script>
+</body>
+</html>
